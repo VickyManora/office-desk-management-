@@ -1,0 +1,34 @@
+
+.box{
+ 
+    border: 0.5px solid black;
+    background-color:rgb(203, 231, 238);
+    width:'130px';
+    margin:auto;
+    text-align:left;
+    box-shadow:2px 4px 8px 2px rgba(0, 0, 0, 0.4);
+    border-radius:5px;
+    }
+    .title{
+      color:rgb(100, 92, 92);
+      font-size:14px;
+      font-weight: normal;
+      
+    }
+    .data{
+       margin-left:10px;
+       font-weight: bold;
+       
+    }
+    .c{
+    display:flex; 
+    }
+    .arrow-left {
+    width: 0; 
+    height: 0;
+    margin-top:10px; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-right:10px solid rgb(203, 231, 238); 
+    
+  }

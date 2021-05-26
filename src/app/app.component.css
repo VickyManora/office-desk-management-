@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    
+    
+  }
+  .top{
+    background-color: #dddddd;
+    padding-bottom: 100PX;
+    
+  }
+  .circle{
+        display: flex;
+      justify-content: space-between;
+      width: 180px;
+  }
+ 
+  .topcontainer{
+     display:flex;
+      flex-flow: row wrap;
+       justify-content: space-between;
+    background-color: white;
+    margin:40px 68px;
+     border:1px solid black;
+  }
+  .container{
+    margin: 10px 100px;     
+  }
+  
+    .topnav {
+    overflow: hidden;
+    margin-right: 30px;
+    }
+  
+  .topnav .search-container {
+    float: right;
+    display:flex;
+   
+  }
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  .topnav .search-container button {
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+     justify-content:flex-end;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+
+ 
+  .seat-occupied{
+    background-color:black;
+  }
+  .search-container{
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .employee_data{
+    position: absolute;
+    z-index:1;
+     left: 150px;
+    top: 100px;
+    height:50px;
+    width: 70px;
+    background-color: grey;
+  }
+  .half-circle1 {
+      margin-left:20px;
+      width: 40px;
+      height: 20px;
+      border-top-left-radius: 22px;  
+      border-top-right-radius: 22px; 
+      border: 2px solid gray;
+      border-bottom: 0;
+     
+  }
+  
+  .half-circle2{
+      margin-left:20px;
+      width: 40px;
+      height: 20px; 
+      border-bottom-left-radius: 22px;  
+      border-bottom-right-radius: 22px; 
+      border: 2px solid gray;
+      border-top: 0;
+      box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  }
+  
+  .rectangle{
+     width: 200px;
+      height: 100px;
+      background-color: grey;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid white;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  }
+  
